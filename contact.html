@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>      
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76P<VCmYl" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top py-0 navbar-expand-md navbar-light" style="background-color: #ffffff;">
+            <div class="container py-0 flex-md-row"> 
+                <div class="myName">
+                    <a class="navbar-brand text-white w-100" href="index.html">Chris Heckendorn</a>
+                </div>
+
+                <div class="navbar-nav navbar-expand nav-justified">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row justify-content-between space">
+            <div class="col-lg-7  borders bg-white mt-sm-3 mt-md-0">
+                <div>
+                <h2>About Me</h2>
+                </div>
+                <form>
+                        <div class="form-group">
+                          <label for="inputName">Name</label>
+                          <input type="text" class="form-control" placeholder="John Smith">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="inputEmail">Email</label>
+                          <input type="email" class="form-control" placeholder="example@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputMessage">Message</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-info mb-3">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-lg-4  mt-5 mt-lg-0 borders bg-white heightControl">
+                <div class="row">
+                    <div class="col">
+                         <h4>Connect with Me</h4>
+                     </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-2">
+                        <a target="_blank" href="assets/images/linkedin.png">
+                        <img id="firstPhoto" src="assets/images/linkedin.png" alt="PlaceholderImage1" width="80" height="80">
+                        </a>
+                    </div>
+
+                        <div class="col-lg-4 col-2">
+                                <a target="_blank" href="assets/images/github.png">
+                                <img id="firstPhoto" src="assets/images/github.png" alt="PlaceholderImage1" width="80" height="80">
+                                </a>
+                        </div>
+                        <div class="col-lg-4 col-2">
+                                <a target="_blank" href="assets/images/stackoverflow.png">
+                                <img id="firstPhoto" src="assets/images/stackoverflow.png" alt="PlaceholderImage1" width="80" height="80">
+                                </a>
+                        </div>
+                </div>
+                                            
+                          
+            </div>       
+        </div>
+    </div>
+                
+</body>
+
+
+
+
+</html>
